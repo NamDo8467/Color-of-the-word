@@ -42,7 +42,6 @@ document.addEventListener('keydown', (event) => {
 playTime()
 async function playTime() {
     let answer = await getAnswer()
-    // console.log(answer);
     if (answer != "" && time_played < 1) {
         const playtime = setInterval(() => {
             second--
